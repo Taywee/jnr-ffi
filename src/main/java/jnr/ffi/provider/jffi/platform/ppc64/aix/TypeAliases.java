@@ -35,8 +35,8 @@ public final class TypeAliases {
         m.put(TypeAlias.int32_t, NativeType.SINT);
         m.put(TypeAlias.u_int32_t, NativeType.UINT);
         m.put(TypeAlias.int64_t, NativeType.SLONG);
-        m.put(TypeAlias.u_int64_t, NativeType.ULONGLONG);
-        m.put(TypeAlias.intptr_t, NativeType.SLONGLONG);
+        m.put(TypeAlias.u_int64_t, NativeType.ULONG);
+        m.put(TypeAlias.intptr_t, NativeType.SLONG);
         m.put(TypeAlias.uintptr_t, NativeType.ULONG);
         m.put(TypeAlias.caddr_t, NativeType.ADDRESS);
         m.put(TypeAlias.dev_t, NativeType.ULONG);
